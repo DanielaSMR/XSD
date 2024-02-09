@@ -8,8 +8,8 @@
                 <xs:element name="hora" type="xs:string" />
                 <xs:element name="nota" type="xs:string" />
                 <xs:element name="apto" type="xs:string" />
-                <xs:element name="puertaAbierta" type="xs:string" />
-                <xs:element name="ventanaCerrada" type="xs:string" />
+                <xs:element name="puertaAbierta" type="xs:string" default="true" />
+                <xs:element name="ventanaCerrada" type="xs:string" default="false"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
