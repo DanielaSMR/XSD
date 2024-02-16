@@ -11,13 +11,16 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="nombre" type="xs:string"/>
-                <xs:element name="precio"/>
+                <xs:element name="precio">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:decimal">
+                                <xs:attribute name="moneda" type="xs:string" use="required"/>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
             </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-    <xs:element name="precio">
-        <xs:complexType mixed="true">
-                <xs:attribute name="moneda" type="xs:string" use="optional"/>
         </xs:complexType>
     </xs:element>
 </xs:schema>
