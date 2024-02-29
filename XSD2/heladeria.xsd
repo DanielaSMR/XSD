@@ -23,7 +23,7 @@
                             </xs:choice>
                         </xs:sequence>
                         <xs:attribute name="fabricacion" type="xs:date"/>
-                    </xs:complexType>
+                    </xs:complexType> 
                 </xs:element>
             </xs:sequence>
         </xs:complexType>

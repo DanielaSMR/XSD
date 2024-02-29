@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE cines [
+    <!ELEMENT cines (cine)+>
+    <!ELEMENT cine (nombre,pelicula+,direccion,codigoCine?)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT pelicula (actores,titulo,anyo)>
+    <!ELEMENT actores (actriz?, actor?)*>
+    <!ELEMENT actriz (#PCDATA)>
+    <!ELEMENT actor (#PCDATA)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT anyo (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT codigoCine (#PCDATA)>
+    <!ATTLIST codigoCine num NMTOKEN #REQUIRED>
+]>-->
+<cines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cines.xsd">
+   <cine>
+        <nombre>ABC</nombre>
+        <pelicula>
+            <actores>
+                <actriz>Enma</actriz>
+            </actores>
+            <titulo>Matriz</titulo>
+            <anyo>2004</anyo>
+        </pelicula>
+        <direccion>Calle Inventada 39</direccion>
+    </cine>
+    <cine>
+        <nombre>ABC</nombre>
+        <pelicula>
+            <actores>
+                <actor>Enma</actor>
+            </actores>
+            <titulo>Matriz</titulo>
+            <anyo>2004</anyo>
+        </pelicula>
+        <direccion>Calle Inventada 39</direccion>
+        <codigoCine num="0_2"/>
+    </cine>
+    <cine>
+        <nombre>ABC</nombre>
+        <pelicula>
+            <actores>
+                <actriz>Enma</actriz>
+            </actores>
+            <titulo>Matriz</titulo>
+            <anyo>2004</anyo>
+        </pelicula>
+        <direccion>Calle Inventada 39</direccion>
+        <codigoCine num="0_2"/>
+    </cine>
+    <cine>
+        <nombre>ABC</nombre>
+        <pelicula>
+            <actores>
+                <actriz>Enma</actriz>
+            </actores>
+            <titulo>Matriz</titulo>
+            <anyo>2004</anyo>
+        </pelicula>
+        <direccion>Calle Inventada 39</direccion>
+        <codigoCine num="0_2"/>
+    </cine>
+    <cine>
+        <nombre>ABC</nombre>
+        <pelicula>
+            <actores>
+                <actriz>Enma</actriz>
+            </actores>
+            <titulo>Matriz</titulo>
+            <anyo>2004</anyo>
+        </pelicula>
+        <direccion>Calle Inventada 39</direccion>
+        <codigoCine num="0_2"/>
+    </cine>
+</cines>       
